@@ -1,0 +1,22 @@
+cat << 'EOF' > package.json
+{
+  "name": "jerryapp",
+  "version": "1.0.0",
+  "description": "Jerry's first mobile app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Build project\""
+  },
+  "keywords": [
+    "mobile",
+    "app"
+  ],
+  "author": "Jerry",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/core": "latest"
+  }
+}
+EOF
